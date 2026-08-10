@@ -1,10 +1,10 @@
 import { PROJECTS } from "../data/resume";
 import notesAppImage from "../assets/images/notes-app.png";
-import timeKeeperAppImage from "../assets/images/time-keeper-app.png";
+import timeKeeperAppImage from "../assets/images/time-tracker-app-image.png";
 
 const PROJECT_IMAGES = {
   "notes-app.png": notesAppImage,
-  "time-keeper-app.png": timeKeeperAppImage,
+  "time-tracker-app-image.png": timeKeeperAppImage,
 };
 
 function Projects() {
