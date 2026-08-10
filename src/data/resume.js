@@ -109,7 +109,7 @@ export const PROJECTS = [
     title: "Client Time-Tracking Web App",
     period: "02/2026",
     tags: ["React", "Client Project", "Netlify"],
-    image: "time-keeper-app.png",
+    image: "time-tracker-app-image.png",
     liveUrl: "https://time-tracker-demo.netlify.app/",
     repoUrl: "https://github.com/essencenroberts/time-tracker-demo",
     bullets: [
