@@ -110,8 +110,8 @@ export const PROJECTS = [
     period: "02/2026",
     tags: ["React", "Client Project", "Netlify"],
     image: "time-keeper-app.png",
-    liveUrl: "https://drshellssoulfood.netlify.app/",
-    repoUrl: "https://github.com/essencenroberts/timekeeper-app",
+    liveUrl: "https://time-tracker-demo.netlify.app/",
+    repoUrl: "https://github.com/essencenroberts/time-tracker-demo",
     bullets: [
       "Developed a custom React-based time tracking application for a digital marketing client, translating business requirements into a functional tool.",
       "Managed the project independently from requirements gathering through delivery, applying client communication skills built through years of freelance work.",
