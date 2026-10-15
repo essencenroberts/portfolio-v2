@@ -1,10 +1,12 @@
 import { PROJECTS } from "../data/resume";
 import notesAppImage from "../assets/images/notes-app.png";
 import timeKeeperAppImage from "../assets/images/time-tracker-app-image.png";
+import thirtyDayAppImage from "../assets/images/thirtyday-app.png"
 
 const PROJECT_IMAGES = {
   "notes-app.png": notesAppImage,
   "time-tracker-app-image.png": timeKeeperAppImage,
+  "thirtyday-app.png": thirtyDayAppImage,
 };
 
 function Projects() {
@@ -13,7 +15,7 @@ function Projects() {
       id="projects"
       className="bg-canvas-parchment px-6 py-[80px] md:px-16"
     >
-      <div className="mx-auto flex max-w-[980px] flex-col gap-12">
+      <div className="mx-auto flex max-w-245 flex-col gap-12">
         <h2 className="text-center font-display text-[34px] font-semibold leading-[1.1] tracking-[-0.374px] text-ink md:text-[40px]">
           Projects
         </h2>
@@ -58,14 +60,14 @@ function Projects() {
                   </li>
                 ))}
               </ul>
-              {(project.liveUrl || project.repoUrl) && (
+              {(project.liveUrl || project.repoUrl || project.backendRepoUrl) && (
                 <div className="mt-auto flex flex-wrap gap-3 pt-2">
                   {project.liveUrl && (
                     <a
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-gradient-brand rounded-pill px-[18px] py-[9px] font-text text-[14px] leading-[1.4] tracking-[-0.224px] text-on-primary transition-transform active:scale-95"
+                      className="bg-gradient-brand rounded-pill px-4.5 py-2.25 font-text text-[14px] leading-[1.4] tracking-[-0.224px] text-on-primary transition-transform active:scale-95"
                     >
                       Live Site
                     </a>
@@ -75,9 +77,19 @@ function Projects() {
                       href={project.repoUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="border-gradient-brand text-gradient-brand rounded-pill border px-[18px] py-[9px] font-text text-[14px] leading-[1.4] tracking-[-0.224px] transition-transform active:scale-95"
+                      className="border-gradient-brand text-gradient-brand rounded-pill border px-4.5 py-2.25 font-text text-[14px] leading-[1.4] tracking-[-0.224px] transition-transform active:scale-95"
                     >
-                      GitHub Repo
+                      {project.backendRepoUrl ? "Frontend Repo" : "GitHub Repo"}
+                    </a>
+                  )}
+                  {project.backendRepoUrl && (
+                    <a
+                      href={project.backendRepoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="border-gradient-brand text-gradient-brand rounded-pill border px-4.5 py-2.25 font-text text-[14px] leading-[1.4] tracking-[-0.224px] transition-transform active:scale-95"
+                    >
+                      Backend repo
                     </a>
                   )}
                 </div>

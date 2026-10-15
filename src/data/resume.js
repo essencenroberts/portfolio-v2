@@ -94,6 +94,16 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
+    title: "30Days: Content Challenge Planner",
+    period: "10/2026",
+    tags: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "TailwindCSS", "JWT"],
+    image: "thirtyday-app.png",
+    liveUrl: "https://thirtyday.onrender.com",
+    repoUrl: "https://github.com/essencenroberts/30days-backend",
+    backendRepoUrl: "https://github.com/essencenroberts/30days-backend",
+    bullets: ["Built a full stack app that helps content creators plan and finish 30-day posting challenges, with a post planned for every day.", "Shows each challenge three ways (calendar grid, list, and status board), with live progress bars and posting streaks."],
+  },
+  {
     title: "Full Stack Notes Application",
     period: "04/2026",
     tags: ["MERN", "MongoDB", "REST API"],
