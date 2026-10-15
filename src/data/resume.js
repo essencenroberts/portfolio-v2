@@ -13,39 +13,39 @@ export const PROFILE = {
 export const SKILL_GROUPS = [
   {
     label: "Languages",
-    skills: ["JavaScript", "TypeScript", "Swift (in progress)"],
+    skills: ["JavaScript", "TypeScript", "HTML5", "CSS3", "Swift (in progress)"],
   },
   {
-    label: "Web Development",
-    skills: ["HTML5", "CSS3", "React", "Node.js"],
+    label: "Frontend",
+    skills: ["React", "React Router", "Tailwind CSS", "Bootstrap CSS", "Vite", "Axios", "Flutter (in progress)" ],
   },
   {
-    label: "Frameworks & Patterns",
-    skills: ["API Design", "Design Patterns", "Tailwind CSS", "Bootstrap CSS", "Flutter (in progress)"],
+    label: "Backend",
+    skills: ["Node.js",  "Express", "RESTful APIs", "JWT Authentication", "Middleware"],
   },
   {
     label: "Databases",
-    skills: ["MongoDB (NoSQL)", "Database Design & Optimization"],
+    skills: ["MongoDB", "Mongoose", "Database Design & Optimization"],
   },
   {
-    label: "Cloud & DevOps",
+    label: "Cloud & Deployment",
     skills: ["Netlify", "Render", "GitHub Actions"],
   },
   {
     label: "Testing & Quality",
-    skills: ["Unit Testing", "Integration Testing", "Test Automation", "Code Reviews", "Code Refactoring"],
+    skills: ["Unit Testing", "Integration Testing", "Code Reviews", "Code Refactoring"],
   },
   {
     label: "Agile & Version Control",
-    skills: ["Git", "Scrum", "User Stories", "Sprint Planning"],
+    skills: ["Git", "GitHub", "Scrum", "User Stories", "Sprint Planning"],
   },
   {
     label: "Security",
-    skills: ["OWASP Top Ten", "Secure Coding Practices", "Encryption"],
+    skills: ["Password Hashing (bcrypt)", "Authorization", "OWASP Top Ten", "Secure Coding Practices",],
   },
   {
     label: "Algorithms & Data Structures",
-    skills: ["Algorithm Design", "Data Structure Implementation", "Big-O Notation"],
+    skills: ["Algorithm Design", "Data Structures", "Big-O Notation"],
   },
   {
     label: "Machine Learning",
