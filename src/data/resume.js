@@ -97,7 +97,7 @@ export const PROJECTS = [
     title: "30Days: Content Challenge Planner",
     period: "10/2026",
     tags: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "TailwindCSS", "JWT"],
-    image: "thirtyday-app.png",
+    image: "thirtydays-demo.png",
     liveUrl: "https://thirtyday.onrender.com",
     repoUrl: "https://github.com/essencenroberts/30days-backend",
     backendRepoUrl: "https://github.com/essencenroberts/30days-backend",
