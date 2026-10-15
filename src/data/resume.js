@@ -99,7 +99,7 @@ export const PROJECTS = [
     tags: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "TailwindCSS", "JWT"],
     image: "thirtydays-demo.png",
     liveUrl: "https://thirtyday.onrender.com",
-    repoUrl: "https://github.com/essencenroberts/30days-backend",
+    repoUrl: "hthttps://github.com/essencenroberts/30days-frontend",
     backendRepoUrl: "https://github.com/essencenroberts/30days-backend",
     bullets: ["Built a full stack app that helps content creators plan and finish 30-day posting challenges, with a post planned for every day.", "Shows each challenge three ways (calendar grid, list, and status board), with live progress bars and posting streaks."],
   },
