@@ -6,7 +6,7 @@ function About() {
       id="about"
       className="flex justify-center bg-canvas px-6 py-[80px] md:px-16"
     >
-      <div className="flex max-w-[780px] flex-col items-center gap-6 text-center">
+      <div className="flex max-w-195 flex-col items-center gap-6 text-center">
         <h2 className="font-display text-[34px] font-semibold leading-[1.1] tracking-[-0.374px] text-ink md:text-[40px]">
           About
         </h2>

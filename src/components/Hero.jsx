@@ -15,9 +15,7 @@ function Hero() {
           {PROFILE.name}
         </h1>
         <p className="font-text text-[19px] font-light leading-[1.4] text-ink-muted-80 md:text-[24px] md:leading-[1.5]">
-          Marketing strategist turned full-stack developer, building
-          user-centered web applications with the same research and
-          execution rigor she brought to campaigns.
+          Marketer turned full stack developer. <br></br>I build with the end user in mind.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4 md:justify-start">
           <a
@@ -28,7 +26,7 @@ function Hero() {
           </a>
           <a
             href="#contact"
-            className="border-gradient-brand text-gradient-brand rounded-pill border px-[22px] py-[11px] font-text text-[17px] leading-[1.47] tracking-[-0.374px] transition-transform active:scale-95"
+            className="border-gradient-brand text-gradient-brand rounded-pill border px-5.5 py-[11px] font-text text-[17px] leading-[1.47] tracking-[-0.374px] transition-transform active:scale-95"
           >
             Contact Me
           </a>

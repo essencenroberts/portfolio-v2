@@ -7,7 +7,7 @@ export const PROFILE = {
   linkedin: "https://linkedin.com/in/essencenroberts",
   github: "https://github.com/essencenroberts",
   summary:
-    "Digital Marketing Manager and Content Strategist transitioning into Full Stack Development, bringing years of experience in research, audience analysis, strategic execution, and client collaboration to software engineering. Skilled in React, Node.js, Express, MongoDB, TypeScript, RESTful APIs, Agile Development, and AI & Automation tools. Built and deployed a full-stack time-tracking application, owning the development process from requirements gathering through architecture, testing, deployment, and delivery. Approaches software development with a strategic mindset by researching complex problems, designing scalable solutions, and building user-centered applications that deliver meaningful results.",
+    "I spent five years in digital marketing, running content startegy, social media, and campaigns for brands and clients. The whole time, I kept wanting to build the tolls instead of just using them. So I did. I taught myself JavaScript and React, built a time-tracking-app for a marketing lient, and then graduated from Per Schola's AI-Native Full Stack Development progam. Today I build full stack apps with React, TypeScript, Node.js, Express and MongoDBm from planning the data to deploying the app. My marketing background is uniqie selling proposition. Before I write code, I ask who's using it and what they need, because I've spent years being the person trying to reahc them. I;m looking for a frontend or full stack role on a team that craes about the people using what it builds.",
 };
 
 export const SKILL_GROUPS = [
